@@ -5,34 +5,42 @@
 # Topics
 # - to string
 # - polymorphism
+# - refactor
+# - inheritance
+# - help command
+# - dir command
+
 
 # Key Terms
 # - class
 # - attribute
 # - method
+# - refactor
+# - inheritance
+# - docstring
+# - instance
+# - object
 
 
-
-class Rect():
-    name = "Rectangle"
-
-    def __str__(self):
-        return self.name
-
-
-class Circ():
-    name = "Circle"
+class Shape():
+    """Abstract shape object with to string defined"""
 
     def __str__(self):
-        return self.name
+        return self._name
+
+class Rect(Shape):
+    """A Rectangle implementation of Shape"""
+    _name = "Rectangle"
 
 
-class Tri():
-    name = "Triangle"
+class Circ(Shape):
+    """A Circle implementation of Shape"""
+    _name = "Circle"
 
-    def __str__(self):
-        return self.name
 
+class Tri(Shape):
+    """A Triangle implementation of Shape"""
+    _name = "Triangle"
 
 shapes = [
   Rect()
@@ -42,8 +50,3 @@ shapes = [
 
 for shape in shapes:
     print shape
-
-tri = Tri()
-tri.name += " Overriden"
-
-print tri
