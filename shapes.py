@@ -42,3 +42,8 @@ shapes = [
 
 for shape in shapes:
     print shape
+
+tri = Tri()
+tri.name += " Overriden"
+
+print tri
