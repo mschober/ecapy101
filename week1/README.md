@@ -34,6 +34,7 @@
     ```
     pip install openpyxl
     ```
+    
 6. create start_idle.py
     ```
     from idlelib.PyShell import main
