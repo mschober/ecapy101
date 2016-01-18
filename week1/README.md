@@ -20,7 +20,8 @@ pip install virtualenv
 ```
 virtualenv venv
 ```
-4. ```
+4. source venv
+```
 source venv/bin/activate
 ```
 5. pip install openpyxl
