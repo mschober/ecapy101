@@ -21,8 +21,13 @@ pip install virtualenv
 virtualenv venv
 ```
 4. source venv
+MAC
 ```
 source venv/bin/activate
+```
+WINDOWS
+```
+.\venv\bin\activate
 ```
 5. pip install openpyxl
 ```
@@ -35,8 +40,8 @@ if __name__ == '__main__':
   main()
 ```
 7. python start_idle.py
-8. Copy the example code from openpyxl
-(http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/)
+8. [Copy the example code from openpyxl]
+(https://openpyxl.readthedocs.org/en/2.4/)
 9. In idle, File -> new file 'example.py'
 10. Paste the example code
 11. File -> Save
