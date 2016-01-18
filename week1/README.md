@@ -3,10 +3,12 @@ Week 1
 
 MAC - install specific steps
 ---
-1. install pip system wide
+1. [install pip system wide]
 (https://pip.pypa.io/en/stable/installing/)
 2. install virtualenv system wide
-```pip install virtualenv```
+```
+pip install virtualenv
+```
 WINDOWS - install specific steps
 -------
 Need to check the install for all users box
