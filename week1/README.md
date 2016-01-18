@@ -21,11 +21,11 @@ pip install virtualenv
 virtualenv venv
 ```
 4. source venv
-MAC
+* MAC
 ```
 source venv/bin/activate
 ```
-WINDOWS
+* WINDOWS
 ```
 .\venv\bin\activate
 ```
