@@ -14,7 +14,7 @@
 1. install virtualenv system wide
   ```
   pip install virtualenv
-```
+  ```
 2. create a class directory
 3. create a virtualenv 'venv' in class directory
   ```
@@ -22,13 +22,13 @@
   ```
 4. source venv
   * MAC
-  ```
-  source venv/bin/activate
-  ```
+    ```
+    source venv/bin/activate
+    ```
   * WINDOWS
-  ```
-  .\venv\bin\activate
-  ```
+    ```
+    .\venv\bin\activate
+    ```
 
 5. pip install openpyxl
   ```
