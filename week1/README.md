@@ -15,16 +15,19 @@
     ```
     pip install virtualenv
     ```
+    
 2. create a class directory
 3. create a virtualenv 'venv' in class directory
     ```
     virtualenv venv
     ```
+    
 4. source venv
   * MAC
     ```
     source venv/bin/activate
     ```
+    
   * WINDOWS
     ```
     .\venv\bin\activate
