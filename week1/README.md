@@ -1,10 +1,16 @@
 Week 1
 ======
 
+MAC - install specific steps
+---
 1. install pip system wide
 (https://pip.pypa.io/en/stable/installing/)
 2. install virtualenv system wide
 ```pip install virtualenv```
+WINDOWS - install specific steps
+-------
+Need to check the install for all users box
+
 3. create a class directory
 4. create a virtualenv 'venv' in class directory
 5. source venv/bin/activate
