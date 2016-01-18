@@ -15,23 +15,32 @@
 ```
 pip install virtualenv
 ```
-3. create a class directory
-4. create a virtualenv 'venv' in class directory
-5. source venv/bin/activate
-6. pip install openpyxl
-7. create start_idle.py
+2. create a class directory
+3. create a virtualenv 'venv' in class directory
+```
+virtualenv venv
+```
+4. source venv/bin/activate
+```
+source venv/bin/activate
+```
+5. pip install openpyxl
+```
+pip install openpyxl
+```
+6. create start_idle.py
 ```
 from idlelib.PyShell import main
 if __name__ == '__main__':
   main()
 ```
-8. python start_idle.py
-9. Copy the example code from openpyxl
+7. python start_idle.py
+8. Copy the example code from openpyxl
 (http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/)
-10. In idle, File -> new file 'example.py'
-11. Paste the example code
-12. File -> Save
-13. In the idle shell
+9. In idle, File -> new file 'example.py'
+10. Paste the example code
+11. File -> Save
+12. In the idle shell
 ```
 import example
 ```
