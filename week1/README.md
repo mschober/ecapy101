@@ -44,10 +44,9 @@
     if __name__ == '__main__':
       main()
     ```
-    
+
 7. python start_idle.py
-8. [Copy the example code from openpyxl]
-(https://openpyxl.readthedocs.org/en/2.4/)
+8. [Copy the example code from openpyxl](https://openpyxl.readthedocs.org/en/2.4/)
 9. In idle, File -> new file 'example.py'
 10. Paste the example code
 11. File -> Save
