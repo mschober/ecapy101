@@ -21,6 +21,7 @@ pip install virtualenv
 virtualenv venv
 ```
 4. source venv
+
 * MAC
 ```
 source venv/bin/activate
@@ -29,6 +30,7 @@ source venv/bin/activate
 ```
 .\venv\bin\activate
 ```
+
 5. pip install openpyxl
 ```
 pip install openpyxl
