@@ -51,17 +51,19 @@
     ```
     
     * WINDOWS 
-    ```
-    notepad start_idle.py
-    ```
+       ```
+       notepad start_idle.py
+       ```
+       
         * paste code snippet
         * save and close
+        
     * MAC
-    ```
-    cat > start_idl.py
-    <paste code snippet here>
-    ^c
-    ```
+       ```
+       cat > start_idl.py
+       <paste code snippet here>
+       ^c
+       ```
 
 
 7. python start_idle.py
