@@ -1,6 +1,6 @@
 [submodule "eca-excel"]
 	path = eca-excel
-	url = ./eca-excel
+	url = https://github.com/mschober/eca-excel
 [submodule "week1"]
 	path = week1
-	url = ./week1/
+	url = https://github.com/mschober/eca201-week1
