@@ -1,0 +1,6 @@
+[submodule "excel"]
+	path = excel
+	url = ./excel
+[submodule "week1"]
+	path = week1
+	url = ./week1/

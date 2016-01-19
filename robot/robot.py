@@ -40,3 +40,32 @@ class Robot():
 
     def fire_left(self):
         self.left_arm.shoot()
+
+
+class GridMap():
+
+    def __init__(self):
+        self.grid = [[],[]]
+
+
+    def place(self,robot):
+        self.grid[0].append(robot)
+
+class Quest():
+
+    def __init__(self):
+        self.grid = GridMap()
+
+
+    def print_situation(self):
+        print """
+        You are standing at {0} in the map. You can go right.
+        """.format("start position")
+
+    def start_game(self):
+        self.robot = Robot()
+        self.grid.place(self.robot)
+        self.print_situation()
+
+
+
