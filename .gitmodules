@@ -1,6 +1,6 @@
 [submodule "eca-excel"]
 	path = eca-excel
-	url = ./excel
+	url = ./eca-excel
 [submodule "week1"]
 	path = week1
 	url = ./week1/
