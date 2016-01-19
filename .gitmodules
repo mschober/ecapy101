@@ -1,5 +1,5 @@
 [submodule "eca-excel"]
-	path = eca-excel
+	path = materials/eca-excel
 	url = https://github.com/mschober/eca-excel
 [submodule "week1"]
 	path = week1
