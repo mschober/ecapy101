@@ -13,6 +13,7 @@
     2. Create a new user variable 'PYTHON27_HOME' value: C:\Python27
     3. Create a new user variable 'PATH' value: %PYTHON27_HOME%;%PYTHON27_HOME%\Scripts
     4. win key -> cmd -> python -V
+4. Set the tkinter env variables in Fixes section at the bottom
 
 ### GENERAL
 -------
