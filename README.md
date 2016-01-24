@@ -1,4 +1,4 @@
-# Object Oriented Programming in Python
+# Beginning Programming - Python101
 
-### [week 1](https://github.com/mschober/eca201-week1)
-### [week 2](https://github.com/mschober/eca201-week2)
+* [week 1](week1)
+* [week 2](week2)
