@@ -1,2 +1,2 @@
 # Lecture
-* [topics](week02)
+* [topics](https://github.com/mschober/ecapy101/wiki/week02)
