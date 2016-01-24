@@ -1,0 +1,2 @@
+# Lecture
+* [topics](week02)
