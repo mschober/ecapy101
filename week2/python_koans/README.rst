@@ -38,7 +38,10 @@ If you running subversion
     svn checkout  https://github.com/mschober/ecapy101/trunk/week2/python_koans
 
 Or
-    click the .. _download: https://github.com/mschober/ecapy101/blob/master/week2/python_koans-c790074.zip link
+    click the download_koans_ link
+
+.. _download_koans: https://github.com/mschober/ecapy101/blob/master/week2/python_koans-c790074.zip
+
 Installing Python Koans
 -----------------------
 
