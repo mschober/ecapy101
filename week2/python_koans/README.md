@@ -1,2 +1,2 @@
 ### Python Koans
-* stuff
+* delta2
