@@ -75,6 +75,10 @@ Windows users may also want to update the line in the batch file `run.bat` to
 set the python path::
 
     SET PYTHON_PATH=C:\Python27
+    
+If you're still having troubles getting python on the path take a look at the walkthrough. 
+
+    `Setting windows python path screenshot walkthrough. <walkthrough.md>`_
 
 
 Getting Started
