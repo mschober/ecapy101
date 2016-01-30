@@ -33,17 +33,12 @@ a taste of Test Driven Development (TDD).
 Downloading Python Koans
 ------------------------
 
-Python Koans is available through git on Github:
+If you running subversion
 
-    http://github.com/gregmalcolm/python_koans
+    svn checkout  https://github.com/mschober/ecapy101/trunk/week2/python_koans
 
-It is also mirrored on bitbucket for Mercurial users:
-
-    http://bitbucket.org/gregmalcolm/python_koans
-
-Either site will allow you to download the source as a zip/gz/bz2.
-
-
+Or
+    click the [download](https://github.com/mschober/ecapy101/blob/master/week2/python_koans-c790074.zip) link
 Installing Python Koans
 -----------------------
 
