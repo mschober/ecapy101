@@ -78,7 +78,7 @@ set the python path::
     
 If you're still having troubles getting python on the path take a look at the walkthrough. 
 
-    `Setting windows python path screenshot walkthrough. <walkthrough.md>`_
+    `Setting windows python path screenshot walkthrough. <setting_python_path_windows.md>`_
 
 
 Getting Started
@@ -112,52 +112,7 @@ It also tells me exactly where the problem in, its an assert on line 12
 of .\\koans\\about_asserts.py. This one is easy, just change False to True to
 make the test pass.
 
-Sooner or later you will likely encounter tests where you are not sure what the
-expected value should be. For example::
-
-    class Dog:
-        pass
-
-    def test_objects_are_objects(self):
-        fido = self.Dog()
-        self.assertEqual(__, isinstance(fido, object))
-
-This is where the Python Command Line can come in handy. In this case I can
-fire up the command line, recreate the scenario and run queries:
-
 .. image:: http://i442.photobucket.com/albums/qq150/gregmalcolm/DebuggingPython.png
-
-Sniffer Support
----------------
-
-Sniffer allows you to run the tests continuously. If you modify any files files
-in the koans directory, it will rerun the tests.
-
-To set this up, you need to install sniffer::
-
-    $ pip install sniffer
-
-You should also run one of these libraries depending on your system. This will
-automatically trigger sniffer when a file changes, otherwise sniffer will have
-to poll to see if the files have changed.
-
-On Linux::
-
-    $ pip install pyinotify
-
-On Windows::
-
-    $ pip install pywin32
-
-On Mac OS X::
-
-    $ pip install MacFSEvents
-
-Once it is set up, you just run::
-
-    $ sniffer
-
-Just modify one of the koans files and you'll see that the tests are triggered automatically. Sniffer is controlled by `scent.py`
 
 Getting the Most From the Koans
 -------------------------------
