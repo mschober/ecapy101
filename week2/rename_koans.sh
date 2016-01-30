@@ -3,7 +3,7 @@
 curr_koans=${1:-$(ls python_koans-*)}
 echo "Current koans is: " $curr_koans
 
-zip python_koans.zip python_koans
+zip -r python_koans.zip python_koans
 
 next_koans="python_koans-$(md5 python_koans.zip | awk -F " = " '{ print $2 }' | cut -c 1-8)".zip
 echo "Next koans is: " $next_koans
