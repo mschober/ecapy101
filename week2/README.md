@@ -3,6 +3,8 @@
 
 Koans from the man who wrote them, Greg. [python_koans seminar - youtube](https://www.youtube.com/watch?v=M64aoqgVsMM)
 
+In this week get the koans started. If you complete `koans/about_asserts.py` that will be enough until week 3. The final test in about asserts involves understanding an object oriented type concept. Its a bit tricky to pass, but fortunately Greg went into better detail [here]( http://bit.ly/__class__).
+
 ### Lecture
 * [wiki topics](https://github.com/mschober/ecapy101/wiki/week02)
 
