@@ -1,8 +1,10 @@
-import subprocess, re, os
+import re, os
 
 
 def hide_koans():
-    hidden_koans = subprocess.check_output("grep \#from runner/path_to_enlightenment.py".split()).split('\n')
+    with open(os.path.join('runner', 'path_to_enlightenment.py'), 'r') as enlight:
+	    hidden_koans = [ koan for koan in enlight.readlines() if '#from ' in koan]
+    #hidden_koans = subprocess.check_output("grep \#from runner/path_to_enlightenment.py".split()).split('\n')
     hidden_koans = [ koan.split(' import ')[1] for koan in hidden_koans if 'import' in koan ]
     hidden_koans = [ re.sub('(?!^)([A-Z]+)', r'_\1',koan).lower() for koan in hidden_koans ]
     hidden_koans = [ koan + '.py' for koan in hidden_koans]
@@ -14,9 +16,11 @@ def hide_koans():
         os.rename(is_visible_koan, is_hidden_koan)
 
 def show_active_koans():
-    active_koans = subprocess.check_output("grep suite.addTests runner/path_to_enlightenment.py".split()).split('\n')
+    with open(os.path.join('runner', 'path_to_enlightenment.py'), 'r') as enlight:
+	    active_koans = [ koan.replace('\n','') for koan in enlight.readlines()]
+    #active_koans = subprocess.check_output("grep suite.addTests runner/path_to_enlightenment.py".split()).split('\n')
     active_koans = [ koan.split('TestCase(')[1].replace(')', '') for koan in active_koans if 'TestCase' in koan if '#' not in koan ]
     active_koans = [ re.sub('(?!^)([A-Z]+)', r'_\1',koan).lower() for koan in active_koans ]
 
     for koan in active_koans:
-        print "koans/{koan}.py".format(koan=koan)
+        print os.path.join('koans', koan) + '.py'
