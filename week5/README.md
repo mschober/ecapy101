@@ -1,9 +1,7 @@
-## Week 4
-#### of the :wolf:
+## Week 5
+#### of the :lamb:
 
-> Congrats on making the halfway point! You entered this class curious about programming. Regardless of your background by now you've taken the first step into a new alternate computer universe. You're in the driver seat and you get to decide what the computer is going to do for you. When I stare at a blank canvas with a paint brush in my hand I feel a bit intimidated, and I think its ok to feel that way about programming at this stage. Whether this is an audit-tour of programming or a potential future for you, enjoy it. 
-
-> In week 4, we are going to put all the lessons and tools to good use writing our first program.
+> If you are one of the diligent students out there, I am curious who is reading these flavor texts for the class. They are less relevant mid class, but I assume it would be helpful when re-reading the deck after class or as an incoming teaching in future sessions. Send me an email whenver you get through this so I can tell how its going / when people are reading these.
 
 ### Lecture
-* [wiki topics](https://github.com/mschober/ecapy101/wiki/week04)
+* [wiki topics](https://github.com/mschober/ecapy101/wiki/week05)
