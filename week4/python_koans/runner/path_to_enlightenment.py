@@ -6,7 +6,7 @@
 import unittest
 
 #from koans.about_asserts import AboutAsserts
-from koans.about_strings import AboutStrings
+#from koans.about_strings import AboutStrings
 from koans.about_none import AboutNone
 from koans.about_lists import AboutLists
 from koans.about_list_assignments import AboutListAssignments
@@ -51,7 +51,7 @@ def koans():
     loader.sortTestMethodsUsing = None
     #suite.addTests(loader.loadTestsFromTestCase(AboutAsserts))
     #suite.addTests(loader.loadTestsFromTestCase(AboutStrings))
-    #suite.addTests(loader.loadTestsFromTestCase(AboutNone))
+    suite.addTests(loader.loadTestsFromTestCase(AboutNone))
     suite.addTests(loader.loadTestsFromTestCase(AboutControlStatements))
     suite.addTests(loader.loadTestsFromTestCase(AboutTrueAndFalse))
     suite.addTests(loader.loadTestsFromTestCase(AboutLists))
