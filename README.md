@@ -11,3 +11,4 @@ The class content is built up in wiki markdown in `README.md`'s and the actual '
 * [week 5](week5)
 * [week 6](week6)
 * [week 7](week7)
+* [week 8](week8)
