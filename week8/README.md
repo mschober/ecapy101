@@ -4,4 +4,4 @@
 > 
 
 ### Lecture
-* [wiki topics](../../ecapy101/wiki/week08)
+* [wiki topics](../../../wiki/week08)
