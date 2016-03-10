@@ -6,4 +6,4 @@
 > In week 4, we are going to put all the lessons and tools to good use writing our first program.
 
 ### Lecture
-* [wiki topics](https://github.com/mschober/ecapy101/wiki/week04)
+* [wiki topics](../../../wiki/week04)
