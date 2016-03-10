@@ -4,4 +4,4 @@
 > 
 
 ### Lecture
-* [wiki topics](https://github.com/eca-py101-expedia/ecapy101/wiki/week08)
+* [wiki topics](../ecapy101/wiki/week08)
